@@ -1,0 +1,231 @@
+ /* .create_container {
+
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));  
+  
+  margin: auto;
+  text-align: center;
+  top: -6px;
+  width: 100%;
+}
+
+.title {
+  font-family: "Rubik", sans-serif;
+  position: relative;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 6px;
+  margin-left: 24%;
+  padding-top: 14px;
+  color: #f6cf3a;
+}
+
+.info-form {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.808);
+  max-width: 565px;
+  max-height: 265px;
+  margin-right: 30%;
+  margin-left: 30%;
+  padding-bottom: 80px;
+  margin-bottom: 1%;
+}
+
+.info-form label {
+  padding: 23px 1px;
+}
+
+.info-form input {
+  width: 140px;
+  height: 18px;
+  padding: 2px 2px;
+  margin: 5px 0px;
+}
+
+.type-container {
+  display: inline-flex;
+}
+
+.type-container p {
+  padding: 0px 5px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.type-container button {
+  margin-left: 4px;
+  color: red;
+  background: none;
+  border: solid 1px red;
+  border-radius: 50px;
+}
+
+.type-container button:hover {
+  color: yellow;
+  font-size: 13px;
+  background: none;
+  border: none;
+}
+
+.option-types {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn-create {
+  padding: 12px 25px 12px 25px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  color: #ffff;
+  background: #1a58a5;
+  margin-bottom: 22px;
+  margin-top: 2px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 9px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-create:hover {
+  color: #f6cf3a;
+}
+.errors {
+    color: red;
+    font-size: 15px;    
+  } */
+
+  .errors {
+    color: red;
+    font-size: 15px;    
+  }
+.inputForm{
+  background-color: hsl(55, 95%, 47%);
+    height: 40px;
+    margin-right: 1px;
+    font-size: 20px;
+    width: 200px;
+    margin-left: 20px;
+    border-bottom: 3px solid #737474;
+    border-right: 3px solid #737474;
+    box-shadow: 0px 4px 6px #999; 
+    border-radius: 10px;
+}
+.containForm{
+  background-image: url(../../Assets/Pikachu_Home.jpg);
+ 
+  
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 0; 
+}
+#lalaForm{
+  appearance: none;
+background-color: #000000;
+border: 2px solid #1A1A1A;
+border-radius: 15px;
+box-sizing: border-box;
+color: #FFFFFF;
+display: inline-block;
+font-size: 20px;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+min-height: 60px;
+min-width: 250px;
+outline: none;
+padding: 16px 24px;
+text-align: center;
+text-decoration: none;
+transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+user-select: none;
+-webkit-user-select: none;
+width: 30%;
+will-change: transform;
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 2px;
+}
+
+
+#lalaFormX{
+  appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #f2eb92;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 40px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 10%;
+    will-change: transform;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 3px solid #737474;
+    border-right: 3px solid #737474;
+    box-shadow: 0px 4px 6px #999;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+    }
+    
+    #lalaFormX:disabled {
+    pointer-events: none;
+    }
+    
+    #lalaFormX:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    background-color: white;
+    color: black;
+    }
+.title{
+  font-size: 40px;
+}
+#lalaFormT{
+  appearance: none;
+background-color: #000000;
+border: 2px solid #1A1A1A;
+border-radius: 15px;
+box-sizing: border-box;
+color: #FFFFFF;
+display: inline-block;
+font-size: 20px;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+min-height: 60px;
+min-width: 250px;
+outline: none;
+padding: 16px 24px;
+text-align: center;
+text-decoration: none;
+transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+user-select: none;
+-webkit-user-select: none;
+width: 30%;
+will-change: transform;
+margin-left: 15px;
+margin-right: 60px;
+margin-top: 2px;  
+}

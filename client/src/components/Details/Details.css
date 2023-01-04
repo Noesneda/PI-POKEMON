@@ -1,0 +1,119 @@
+.containerDiv{
+  background-color:black;
+}
+
+.detail-content{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(4, 2, 7);
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(212, 196, 92, 0.6));   
+    background-size: cover;  
+    background-size: contain;
+    flex-wrap: wrap;
+    border-radius: 2000px;   
+}
+.detail-content:hover{filter:saturate(150%);}
+.poke-imgen {
+    max-width: 20%;
+    max-height: 50%;
+    margin:auto;
+  }
+
+.poke-names {
+  font-family: "Rubik", sans-serif;
+  text-decoration: "inherit";
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #ffff;
+  text-align: center;
+  font-size: 25px;
+}
+.details{
+    font-family: "Rubik", sans-serif;
+    text-decoration: "inherit";
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #ffff;
+    text-align: center; 
+}
+
+#lalaOp3{
+  appearance: none;
+background-color: #000000;
+border: 2px solid #1A1A1A;
+border-radius: 30px;
+box-sizing: border-box;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-size: 15px;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+min-height: 60px;
+min-width: 250px;
+outline: none;
+padding: 16px 24px;
+text-align: center;
+text-decoration: none;
+transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+width: 50%;
+will-change: transform;
+margin-left: 30px;
+margin-right: 15px;
+border-bottom: 3px solid #737474;
+  border-right: 3px solid #737474;
+  box-shadow: 0px 4px 6px #999;  
+}
+#lalaOp3:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-4px);
+  background-color: white;
+  color: black;
+  }
+
+  #lalaOp4{
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 100px;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10%;
+  will-change: transform;
+  margin-left: 30px;
+  margin-right: 15px;
+  border-bottom: 3px solid #737474;
+    border-right: 3px solid #737474;
+    box-shadow: 0px 4px 6px #999;  
+  }
+  #lalaOp4:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    background-color: white;
+    color: black;
+    }
+  
+  
+  
+

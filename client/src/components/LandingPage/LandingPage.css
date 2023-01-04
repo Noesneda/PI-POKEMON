@@ -1,0 +1,32 @@
+.Landing-container{
+    
+    position: relative;
+    display:list-item;
+    background-color: black;
+    background-attachment: fixed;
+    width: 100%; 
+    height: 100%;
+    
+  }
+  .Landing-container:hover{filter: saturate(200%);}
+.img{
+    width: 90%;     
+}
+.button {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: #fff;
+    padding: 20px 30px;
+    font-weight: bold;  
+    border-radius: 5px; 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(32, 30, 17, 0.6));
+    box-shadow: 0 5px #634e09;
+  }
+  .button:hover {
+    box-shadow: 0 5px #634e09;
+    
+  }
+  .button:active {
+    box-shadow: 0 5px #634e09;   
+  }

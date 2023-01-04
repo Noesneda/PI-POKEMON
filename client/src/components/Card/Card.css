@@ -1,0 +1,89 @@
+/* .card-pokemon {  
+  width: 160px;
+  height: 160px;
+  border-radius: 20px;  
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(212, 196, 92, 0.6));   
+   
+  border: 1px solid rgb(14, 8, 8);   
+}
+.poke-img {
+  max-width: 90px;
+  max-height: 90px;
+  margin: auto;
+  padding-top: 5px;
+  display: block;
+}
+
+.poke-name {
+  font-family: "Rubik", sans-serif;
+  text-decoration: "inherit";
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #ffff;
+  text-align: center;
+  font-size: 16px;
+}
+.poke-name:hover {
+  color: #f6cf3a;
+  text-decoration: none;
+}
+.poke-types {
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+  color: #f6cf3a;
+  text-decoration: inherit;
+  text-align: center;
+  margin: auto;
+  text-transform: capitalize;
+}
+
+ */
+
+ .card-pokemon{
+  width: 330px;
+  height: 340px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 2px black;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  background-color: rgba(255, 255, 255, 0,060);
+  backdrop-filter: blur(0.4rem);
+ }
+ .card-pokemon:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px black;
+}
+
+ .poke-img {
+  width: 230px;
+  height: 240px;
+  margin: 2px;
+  padding-top: 1px;
+  padding-bottom: 100px;
+  display: block;
+  margin-left: 42px;
+}
+.poke-name {
+  font-family: "Rubik", sans-serif;
+  text-decoration: "inherit";
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #ffff;
+  text-align: center;
+  font-size: 20px;
+}
+.poke-name:hover {
+  color: #f6cf3a;
+  text-decoration: none;
+}
+.poke-types {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: #f6cf3a;
+  text-decoration: inherit;
+  text-align: center;
+  margin: auto;
+  text-transform: capitalize;
+}
